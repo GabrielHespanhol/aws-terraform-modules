@@ -5,7 +5,7 @@ Com esse repositório estarei estudando terraform e a criação de módulos, o f
 
 ## Quais meus próximos objetivos?
     [✅] Um módulo para criar um bucket S3 
-    [❌] Um módulo para criar uma instância EC2
+    [✅] Um módulo para criar uma instância EC2
     [❌] Um módulo para criar um VPC
 
 ## Projetos Futuros

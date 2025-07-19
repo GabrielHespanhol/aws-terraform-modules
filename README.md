@@ -1,4 +1,4 @@
-# Meus modulos terraform para AWS
+# Estudando e criando módulos terraform para AWS
 
 ## Objetivo do repositório
 Com esse repositório estarei estudando terraform e a criação de módulos, o foco é praticar o uso de terraform, aprender boas práticas e seguir meus estudos com a tecnologia. 

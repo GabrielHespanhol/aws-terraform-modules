@@ -28,6 +28,10 @@ Aqui é o coração do nosso módulo, onde estamos definindo o recurso a ser cri
 
 ## Exemplo de uso
 
+Para utilizar o módulo EC2 você vai precisar de uma AMI e pode ser que não saiba onde encontrar essa informação, vou dar uma dica e sugestão que é como eu gosto de utilizar. 
+
+Eu utilizo o comando do aws-cli: `aws ec2 describe-images`, caso queira pode jogar a saída em um arquivo com o seguinte comando: `aws ec2 describe-images | jq > images.json`, dessa forma você pode buscar suas imagens e informações via um arquivo json e abrindo com o VSCODE ou editor de sua preferência.
+
 Para utilizar o nosso módulo S3, você deve então utilizar o arquivo `main.tf` do nosso módulo root, logo a seguir um exemplo de uso:
 
 ```hcl

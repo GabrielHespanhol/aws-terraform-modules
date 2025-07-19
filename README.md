@@ -30,4 +30,3 @@ Aqui no repositório temos uma organização de pastas que vai respeitar alguns 
 ├── provider.tf # Definição do nosso provider (No caso estamos utilizando a nuvem AWS)
 └── README.md # Arquivo principal de documentação do projeto
 ```
-

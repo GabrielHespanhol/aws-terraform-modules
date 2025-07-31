@@ -23,7 +23,7 @@ resource "aws_subnet" "private" {
 }
 
 resource "aws_subnet" "public" {
-  vpc_id = aws_vpc.main.id
+  vpc_id     = aws_vpc.main.id
   cidr_block = local.subnet_cidr[1]
 
   tags = {

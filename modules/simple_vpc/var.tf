@@ -23,16 +23,5 @@ variable "dns_enable" {
 variable "vpc_environment" {
   type        = string
   description = "Definindo o ambiente de uso da VPC"
-  default     = "Dev" # Pode definir como Prod ou Stage por exemplo
-}
-
-variable "subnet_number" {
-  type        = number
-  description = "Número de subredes a serem criadas dentro da VPC"
-}
-
-variable "subnet_newbits" {
-  type        = number
-  description = "Newbits para definição do CIDR de nossas subnets"
-  default     = 1
+  default     = "Dev"
 }

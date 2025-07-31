@@ -16,3 +16,13 @@ module "aws_ec2_instance" {
   image_name = "al2023-ami-2023.7.20250609.0-kernel-6.1-x86_64"
   ami_owner  = "137112412989"
 }
+
+
+# Aqui estamos chamando o nosso módulo simple_vpc
+# Fornecendo um nome para a VPC e um bloco de CIDR
+# Muito importante verificar que nosso CIDR da VPC é utilizado como base para o CIDR de nossas subnets.
+module "aws_vpc" {
+  source = "./modules/simple_vpc"
+  vpc_name = "vpc-name-here"
+  cidr_block = "10.10.0.0/16"
+}

@@ -21,6 +21,9 @@ Aqui no repositório temos uma organização de pastas que vai respeitar alguns 
 ---
 ```hcl
 ├── backend.tf # Arquivo onde definimos o backend a ser utilizado
+├── examples # Diretório com exemplos prontos para utilização
+│   ├── basic-ec2 # Criando VM EC2
+│   └── basic-vpc # Criando uma VPC Simples com uma subnet pública e uma subnet privada
 ├── main.tf # Arquivo main, onde vamos acionar nossos módulos
 ├── modules # Diretório onde temos nossos módulos terraform
 │   ├── aws_vpc # Diretório do módulo VPC
